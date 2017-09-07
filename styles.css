@@ -11,13 +11,12 @@
     text-align:center;
 }
 
-.heading {
+.Heading {
 	position: relative;
 	text-align: center;
-	background-image: url("img/milkbg.jpg");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+	height:400px;
+	background-image: url(".img/milkbg.jpg");
+	background-repeat: no-repeat;
     background-size: cover;
 }   
 
