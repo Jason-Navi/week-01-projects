@@ -14,21 +14,16 @@
 .heading {
 	position: relative;
 	text-align: center;
-	margin: auto;
+	background-image: url("img/milkbg.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }   
-
-.heading, img {
-	width:100%;
-}
 
 .subHeading, h5 {
 	font-weight: bold;
 	font-size: 200%;
-}
-
-h5 {
-	font-weight: bolder;
-	font-size: 275%;
 }
 
 .subHeading {
@@ -42,5 +37,15 @@ h5 {
 	right: 0;
 	background-color: black;
 	z-index: 100;
-	height: 25%;
+}
+
+.contactInfo {
+	background-color: #2cb5f9;
+	font-size: 24px;
+	color: white;
+}
+
+.contactInfo h4 {
+	font-weight: bolder;
+	font-size: 36px;
 }
